@@ -28,14 +28,14 @@ h1:focus {
   box-shadow: inset 0 0 10px rgb(107, 109, 7);
 }
 
-small {
+p {
   font-weight: bold;
   text-shadow: 2px 2px 0 rgb(146, 133, 39);
-  animation: small 1s infinite alternate;
+  animation: p 1s infinite alternate;
   color: white;
 }
 
-@keyframes small {
+@keyframes p {
   from {
     transform: translateY(3px);
   }
